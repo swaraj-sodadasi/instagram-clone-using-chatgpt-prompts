@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Home</title>
+    <!-- Include the CSS file for styling -->
+    <link rel="stylesheet" href="home-styles.css">
+    <!-- Include the redirection script -->
+    <script src="redirect.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">Instagram</div>
+        <nav>
+            <ul>
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="./explore.html">Explore</a></li>
+                <li><a href="./profile.html">Profile</a></li>
+                <li><a href="#" onclick="logout()">Log Out</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main-container">
+        <div class="sidebar-left">
+            <!-- User account details -->
+            <div class="user-details">
+                <img src="./img/thorfinn-7.jpeg" alt="Profile Image">
+                <h3>Thorfinn Karlsefanni</h3>
+            </div>
+            <p>I have no enemies</p>
+        </div>
+
+        <main>
+            <!-- User feed -->
+            <div class="user-feed">
+                <!-- Example post container -->
+                <div class="post">
+                    <img src="./img/eren.jpeg" alt="Post Image">
+                    <div class="post-info">
+                        <h3>Eren Yeager</h3>
+                        <h1>I have no allies</h1>
+                    </div>
+                </div>
+
+                <!-- Add more posts as needed -->
+
+            </div>
+
+            <div class="post">
+                <img src="./img/kakashi.jpeg" alt="Post Image">
+                <div class="post-info">
+                    <h3>Kakashi Hatake</h3>
+                    <h1>Copy Ninja</h1>
+                </div>
+            </div>
+        </main>
+
+        <div class="sidebar-right">
+            <!-- Suggestions for the user -->
+            <div class="suggestions">
+                <h2>Suggestions for You</h2>
+                <!-- Example suggestion -->
+                <div class="suggestion">
+                    <img src="./img/naruto.jpg" alt="Suggested User Image" width="300px" height="200px">
+                    <div class="suggestion-info">
+                        <h3>Naruto Uzumaki</h3>
+                        <button>Follow</button>
+                    </div>
+                </div>
+
+                <!-- Add more suggestions as needed -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
